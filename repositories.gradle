@@ -37,6 +37,13 @@ repositories {
             url = 'https://maven.blamejared.com'
             name = 'BlameJared Maven'
         }
+        maven { // Create Forge and Registrate Forge
+        url = "https://maven.tterrag.com/"
+        content {
+            includeGroup("com.tterrag.registrate")
+            includeGroup("com.simibubi.create")
+        }
+    }
         maven { url = "https://mvn.devos.one/snapshots/" }
         maven {
             // saps.dev Maven (KubeJS and Rhino)
