@@ -45,6 +45,8 @@ repositories {
                 includeGroup "dev.latvian.mods"
             }
         }
+        maven { url = "https://maven.cafeteria.dev/releases" }
+        maven { url = "https://maven.jamieswhiteshirt.com/libs-release" }
         maven {
             name = "Fuzs Mod Resources"
             url = "https://raw.githubusercontent.com/Fuzss/modresources/main/maven/"
@@ -60,5 +62,6 @@ repositories {
             name = "Resourceful Bees Maven"
             url = "https://nexus.resourcefulbees.com/repository/maven-public/"
         }
+        
         maven { url 'https://jitpack.io' }
     }
