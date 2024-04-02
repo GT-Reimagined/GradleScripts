@@ -64,6 +64,7 @@ repositories {
             url "https://repo.repsy.io/mvn/distant/feltmc"
         }
         maven {  url = "https://repo.repsy.io/mvn/trinsdar/trins-mods/"}
+        maven {  url = "https://repo.repsy.io/mvn/trinsdar/reforged-mods/"}
         //botarium
         maven {
             name = "Resourceful Bees Maven"
