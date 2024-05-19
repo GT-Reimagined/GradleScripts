@@ -70,6 +70,6 @@ repositories {
             name = "Resourceful Bees Maven"
             url = "https://nexus.resourcefulbees.com/repository/maven-public/"
         }
-        
+        mavenLocal()
         maven { url 'https://jitpack.io' }
     }
