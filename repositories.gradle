@@ -44,6 +44,7 @@ repositories {
             content {
                 includeGroup "dev.architectury"
                 includeGroup "me.shedaniel"
+                includeGroup "me.shendial.cloth"
             }
         }
         maven {
