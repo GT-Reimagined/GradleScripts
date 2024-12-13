@@ -79,12 +79,24 @@ repositories {
         }
         maven {
             url = "https://maven.wagyourtail.xyz/releases"
+            content {
+                includeGroup "xyz.wagyourtail"
+            }
         }
         maven {
             url = "https://maven.wagyourtail.xyz/snapshots"
+            content {
+                includeGroup "xyz.wagyourtail"
+            }
         }
         //GT and Felt.
-        maven {  url = "https://repo.repsy.io/mvn/trinsdar/gregtech-intergalactical/"}
+        maven {  
+            url = "https://repo.repsy.io/mvn/trinsdar/gregtech-intergalactical/"
+            content{
+                includeGroup "org.gt-reimagined"
+                includeGroup "io.github.gregtechintergalactical"
+            }
+        }
         maven {
             url "https://repo.repsy.io/mvn/distant/feltmc"
         }
