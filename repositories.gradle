@@ -1,14 +1,24 @@
 repositories {
-        maven { url = 'https://maven.neoforged.net' }
+        maven { 
+            url = 'https://maven.neoforged.net' 
+        }
         maven {
             name = 'parchment'
             url = 'https://maven.parchmentmc.org'
         }
-        maven { url 'https://dvs1.progwml6.com/files/maven' }
+        maven { 
+            url 'https://dvs1.progwml6.com/files/maven' 
+            content {
+                includeGroup "mezz"
+            }
+        }
         //Needed for intellij
         maven {
             name = 'sponge'
             url = 'https://repo.spongepowered.org/repository/maven-public/'
+            content {
+                includeGroup "org.spongepowered"
+            }
         }
         maven {
             url "https://www.cursemaven.com"
@@ -18,8 +28,10 @@ repositories {
         }
         maven {
             url = "https://api.modrinth.com/maven"
+            content {
+                includeGroup "maven.modrinth"
+            }
         }
-        maven { url "https://maven.shedaniel.me" }
         maven {
             url "https://maven.terraformersmc.com"
             content {
@@ -31,11 +43,17 @@ repositories {
             url = "https://maven.architectury.dev"
             content {
                 includeGroup "dev.architectury"
+                includeGroup "me.shedaniel"
             }
         }
         maven {
             url = 'https://maven.blamejared.com'
             name = 'BlameJared Maven'
+            content {
+                includeGroup "org.gt-reimagined"
+                includeGroup "dev.trinsdar"
+                includeGroup "com.blamejared"
+            }
         }
         maven { // Create Forge and Registrate Forge
             url = "https://maven.tterrag.com/"
