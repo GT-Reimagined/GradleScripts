@@ -53,7 +53,8 @@ repositories {
             content {
                 includeGroup "org.gt-reimagined"
                 includeGroup "dev.trinsdar"
-                includeGroup "com.blamejared"
+                includeGroup "com.blamejared.crafttweaker"
+                includeGroup "mezz.jei"
             }
         }
         maven { // Create Forge and Registrate Forge
