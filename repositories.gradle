@@ -9,7 +9,7 @@ repositories {
         maven { 
             url 'https://dvs1.progwml6.com/files/maven' 
             content {
-                includeGroup "mezz"
+                includeGroup "mezz.jei"
             }
         }
         //Needed for intellij
