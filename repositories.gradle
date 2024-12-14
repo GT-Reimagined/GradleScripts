@@ -35,6 +35,7 @@ repositories {
         maven {
             url "https://maven.terraformersmc.com"
             content {
+                includeGroup "com.terraformersmc"
                 includeGroup "com.terraformersmc.terraform-api"
                 includeGroup "dev.emi"
             }
