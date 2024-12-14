@@ -87,6 +87,7 @@ repositories {
             url = "https://maven.wagyourtail.xyz/snapshots"
             content {
                 includeGroup "xyz.wagyourtail"
+                includeGroup "xyz.wagyourtail.unimined.expect-platform"
             }
         }
         //GT and Felt.
