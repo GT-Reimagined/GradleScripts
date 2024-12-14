@@ -35,7 +35,8 @@ repositories {
         maven {
             url "https://maven.terraformersmc.com"
             content {
-                includeGroup "com.terraformersmc"
+                includeGroup "com.terraformersmc.terraform-api"
+                includeGroup "dev.emi"
             }
         }
         maven {
@@ -58,7 +59,15 @@ repositories {
                 includeGroup("com.simibubi.create")
             }
         }
-        maven { url = "https://mvn.devos.one/snapshots/" }
+        maven { 
+            url = "https://mvn.devos.one/snapshots/" 
+            content {
+                includeGroup "me.alphamode"
+                includeGroup "io.github.tropheusj"
+                includeGroup "io.github.fabricators_of_create"
+                includeGroup "com.simibubi.create"
+            }    
+        }
         maven {
             // saps.dev Maven (KubeJS and Rhino)
             url = "https://maven.saps.dev/minecraft"
@@ -67,7 +76,12 @@ repositories {
             }
         }
         maven { url = "https://maven.cafeteria.dev/releases" }
-        maven { url = "https://maven.jamieswhiteshirt.com/libs-release" }
+        maven { 
+            url = "https://maven.jamieswhiteshirt.com/libs-release" 
+            content {
+                includeGroup "com.jamieswhiteshirt"
+            }
+        }
         maven {
             name = "Fuzs Mod Resources"
             url = "https://raw.githubusercontent.com/Fuzss/modresources/main/maven/"
@@ -96,6 +110,9 @@ repositories {
         }
         maven {
             url "https://repo.repsy.io/mvn/distant/feltmc"
+            content {
+                includeGroup "net.feltmc"
+            }
         }
         //botarium
         maven {
