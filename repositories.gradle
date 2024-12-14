@@ -102,12 +102,14 @@ repositories {
         maven {
             url "https://repo.repsy.io/mvn/distant/feltmc"
         }
-        maven {  url = "https://repo.repsy.io/mvn/trinsdar/trins-mods/"}
-        maven {  url = "https://repo.repsy.io/mvn/trinsdar/reforged-mods/"}
         //botarium
         maven {
             name = "Resourceful Bees Maven"
             url = "https://nexus.resourcefulbees.com/repository/maven-public/"
+            content {
+                includeGroup "com.teamresourceful.resourcefullib"
+                includeGroup "earth.terrarium"
+            }
         }
         mavenLocal()
         maven { url 'https://jitpack.io' }
