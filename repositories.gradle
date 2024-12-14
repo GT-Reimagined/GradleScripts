@@ -50,12 +50,6 @@ repositories {
         maven {
             url = 'https://maven.blamejared.com'
             name = 'BlameJared Maven'
-            content {
-                includeGroup "org.gt-reimagined"
-                includeGroup "dev.trinsdar"
-                includeGroup "com.blamejared.crafttweaker"
-                includeGroup "mezz.jei"
-            }
         }
         maven { // Create Forge and Registrate Forge
             url = "https://maven.tterrag.com/"
