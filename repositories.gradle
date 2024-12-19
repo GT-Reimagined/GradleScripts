@@ -29,8 +29,7 @@ repositories {
         maven {
             url "https://maven.terraformersmc.com"
             content {
-                includeGroup "com.terraformersmc"
-                includeGroup "com.terraformersmc.terraform-api"
+                includeGroupAndSubgroups "com.terraformersmc"
                 includeGroup "dev.emi"
             }
         }
@@ -39,8 +38,7 @@ repositories {
             url = "https://maven.architectury.dev"
             content {
                 includeGroup "dev.architectury"
-                includeGroup "me.shedaniel"
-                includeGroup "me.shedaniel.cloth"
+                includeGroupAndSubgroups "me.shedaniel"
             }
         }
         maven {
