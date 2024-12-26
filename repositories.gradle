@@ -91,6 +91,7 @@ repositories {
             content{
                 includeGroup "org.gt-reimagined"
                 includeGroup "io.github.gregtechintergalactical"
+                includeGroup "earth.terrarium"
             }
         }
         maven {
