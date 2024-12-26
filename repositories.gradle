@@ -74,15 +74,13 @@ repositories {
         maven {
             url = "https://maven.wagyourtail.xyz/releases"
             content {
-                includeGroup "xyz.wagyourtail"
-                includeGroup "xyz.wagyourtail.unimined.expect-platform"
+                includeGroupAndSubgroups "xyz.wagyourtail"
             }
         }
         maven {
             url = "https://maven.wagyourtail.xyz/snapshots"
             content {
-                includeGroup "xyz.wagyourtail"
-                includeGroup "xyz.wagyourtail.unimined.expect-platform"
+                includeGroupAndSubgroups "xyz.wagyourtail"
             }
         }
         //GT and Felt.
