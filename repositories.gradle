@@ -1,11 +1,4 @@
 repositories {
-        maven { 
-            url = 'https://maven.neoforged.net' 
-        }
-        maven {
-            name = 'parchment'
-            url = 'https://maven.parchmentmc.org'
-        }
         //Needed for intellij
         maven {
             name = 'sponge'
@@ -40,10 +33,6 @@ repositories {
                 includeGroup "dev.architectury"
                 includeGroupAndSubgroups "me.shedaniel"
             }
-        }
-        maven {
-            url = 'https://maven.blamejared.com'
-            name = 'BlameJared Maven'
         }
         maven { // Create Forge and Registrate Forge
             url = "https://maven.tterrag.com/"
@@ -106,6 +95,17 @@ repositories {
                 includeGroup "com.teamresourceful.resourcefullib"
                 includeGroup "earth.terrarium"
             }
+        }
+        maven {
+            url = 'https://maven.blamejared.com'
+            name = 'BlameJared Maven'
+        }
+        maven { 
+            url = 'https://maven.neoforged.net' 
+        }
+        maven {
+            name = 'parchment'
+            url = 'https://maven.parchmentmc.org'
         }
         mavenLocal()
         maven { 
