@@ -106,6 +106,9 @@ repositories {
         maven {
             name = 'parchment'
             url = 'https://maven.parchmentmc.org'
+            content {
+                includeGroupAndSubgroups "org.parchmentmc"
+            }
         }
         mavenLocal()
         maven { 
