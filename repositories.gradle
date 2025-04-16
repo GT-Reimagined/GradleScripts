@@ -55,7 +55,8 @@ repositories {
         maven { 
             url = "https://maven.createmod.net" 
             content {
-                includeGroup "net.createmod.ponder"
+                includeGroupAndSubgroups "net.createmod"
+                includeGroupAndSubgroups "dev.engine-room"
             }
         }
         maven {
