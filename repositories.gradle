@@ -52,6 +52,12 @@ repositories {
                 includeGroup "com.simibubi.create"
             }    
         }
+        maven { 
+            url = "https://maven.createmod.net" 
+            content {
+                includeGroup "net.createmod.ponder"
+            }
+        }
         maven {
             // saps.dev Maven (KubeJS and Rhino)
             url = "https://maven.saps.dev/minecraft"
