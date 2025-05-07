@@ -48,7 +48,16 @@ repositories {
             content {
                 includeGroup "me.alphamode"
                 includeGroup "io.github.tropheusj"
-                includeGroup "io.github.fabricators_of_create"
+                includeGroupAndSubgroups "io.github.fabricators_of_create"
+                includeGroup "com.simibubi.create"
+            }    
+        }
+        maven { 
+            url = "https://mvn.devos.one/releases/" 
+            content {
+                includeGroup "me.alphamode"
+                includeGroup "io.github.tropheusj"
+                includeGroupAndSubgroups "io.github.fabricators_of_create"
                 includeGroup "com.simibubi.create"
             }    
         }
