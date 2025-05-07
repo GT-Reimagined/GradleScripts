@@ -60,8 +60,8 @@ repositories {
             }
         }
         maven {
-            // saps.dev Maven (KubeJS and Rhino)
-            url = "https://maven.saps.dev/minecraft"
+            // KubeJS and Rhino
+            url = "https://maven.latvian.dev/releases"
             content {
                 includeGroup "dev.latvian.mods"
             }
@@ -88,18 +88,12 @@ repositories {
                 includeGroup "earth.terrarium"
             }
         }
-        maven {
-            url "https://repo.repsy.io/mvn/distant/feltmc"
-            content {
-                includeGroup "net.feltmc"
-            }
-        }
         //botarium
         maven {
             name = "Resourceful Bees Maven"
             url = "https://nexus.resourcefulbees.com/repository/maven-public/"
             content {
-                includeGroup "com.teamresourceful.resourcefullib"
+                includeGroupAndSubgroups "com.teamresourceful"
                 includeGroup "earth.terrarium"
             }
         }
