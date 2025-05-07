@@ -98,6 +98,14 @@ repositories {
             }
         }
         maven {
+            name = "Resourceful Bees Maven"
+            url = "https://maven.resourcefulbees.com/repository/maven-releases/"
+            content {
+                includeGroupAndSubgroups "com.teamresourceful"
+                includeGroup "earth.terrarium"
+            }
+        }
+        maven {
             url = 'https://maven.blamejared.com'
             name = 'BlameJared Maven'
         }
