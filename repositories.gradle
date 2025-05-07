@@ -61,6 +61,12 @@ repositories {
                 includeGroup "com.simibubi.create"
             }    
         }
+        maven {
+            url "https://maven.jamieswhiteshirt.com/libs-release"
+            content {
+                includeGroup "com.jamieswhiteshirt"
+            }
+        }
         maven { 
             url = "https://maven.createmod.net" 
             content {
